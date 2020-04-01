@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="jpa.practica" transaction-type="RESOURCE_LOCAL">
+	<class>es.uma.informatica.sii.Administrador</class>
+	<class>es.uma.informatica.sii.Actividad</class>
+	<class>es.uma.informatica.sii.Docente</class>
+	<class>es.uma.informatica.sii.Entidad</class>
+	<class>es.uma.informatica.sii.Estudiante</class>
+	<class>es.uma.informatica.sii.Formacion</class>
+	<class>es.uma.informatica.sii.Informe</class>
+	<class>es.uma.informatica.sii.Investigacion</class>
+	<class>es.uma.informatica.sii.Mensaje</class>
+	<class>es.uma.informatica.sii.Personal_Administracion</class>
+	<class>es.uma.informatica.sii.Preferencia</class>
+	<class>es.uma.informatica.sii.Servicio</class>
+	<class>es.uma.informatica.sii.Usuario</class>
+	<class>es.uma.informatica.sii.ValoracionFormacionInvestigacion</class>
+	<class>es.uma.informatica.sii.ValoracionVoluntariado</class>
+	<class>es.uma.informatica.sii.Voluntariado</class>
+		<properties>
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/sii"/>
+			<property name="javax.persistence.jdbc.user" value="siiuser"/>
+			<property name="javax.persistence.jdbc.password" value="siipassword"/>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+		</properties>
+	</persistence-unit>
+</persistence>

@@ -1,0 +1,4 @@
+Ejercicio 1: No es el esquema esperado, ya que se crean varias tablas,
+
+Ejercicio 2: La relacion entre ambas tablas se modela mediante una tabla llamada ARTICULO_AUTOR, la cual sería una entidad
+intermedia que contiene las claves primaria y foránea a la vez.   
